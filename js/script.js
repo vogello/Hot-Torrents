@@ -16,7 +16,7 @@ $(document).ready(function() {
 		}
 	});
 
-	var defaults = Array('DVDrip', 'BRRip', 'HDrip', 'DVDScr', 'R5');
+	var defaults = Array('XVID_DIVX', 'DVDrip', 'BRRip', 'HDrip', 'DVDScr', 'R5');
 
 	$('#filter').empty().append('<li style="list-style: none;"><label><input type="checkbox" checked="checked" class="all" /></label></li>');
 	for(var i in types)
@@ -29,7 +29,7 @@ $(document).ready(function() {
 		$('table tr:not(.header)').hide();
 
 		$('#filter input:checked').each(function() {
-			var val = $(this).val() != '???' ? $(this).val() : 'unknown';
+			var val = String($(this).val() != '???' ? $(this).val() : 'unknown');
 			$('table tr td.type.class_' + val).parent().show();
 		});
 	}

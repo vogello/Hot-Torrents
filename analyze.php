@@ -125,7 +125,7 @@ function movieType($text)
 	elseif 	(preg_match('#(DVD)#si', $text)) { $type = 'DVDrip'; }
 	elseif 	(preg_match('#(HQ|x264|H264|H\.264)#si', $text)) { $type = 'HQ'; }
 	elseif 	(preg_match('#(WORKPRINT|CROPPED)#si', $text)) { $type = 'Preview'; }
-	elseif 	(preg_match('#(XViD|XviD|XVID|xvid|DivX|DIVX|divx)#s', $text)) { $type = 'XVID/DIVX'; }
+	elseif 	(preg_match('#(XViD|XviD|XVID|xvid|DivX|DIVX|divx)#s', $text)) { $type = 'XVID_DIVX'; }
 	else 	$type = '???';
 	
 	return $type;
