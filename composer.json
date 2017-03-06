@@ -1,0 +1,17 @@
+{
+  "name": "vogello/hot-torrents",
+  "description": "A PHP app to retrieve the latest torrents from PirateBay",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "vogello",
+      "email": "vogel80@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "vogello\\HotTorrents\\": "src/"
+    }
+  }
+}

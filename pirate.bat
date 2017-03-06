@@ -1,1 +1,0 @@
-@php pirate_bay.php
