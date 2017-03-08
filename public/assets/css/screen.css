@@ -1,0 +1,28 @@
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+tr td {
+    padding: 5px 10px;
+}
+
+.popularity-0 {
+    color: #ccc;
+}
+
+.popularity-1 {
+    color: #888;
+}
+
+.popularity-2 {
+    color: #8c8;
+}
+
+.popularity-3 {
+    color: #060;
+}
+
+.popularity-4 {
+    color: #c00;
+}
